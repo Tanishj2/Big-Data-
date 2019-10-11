@@ -1,0 +1,33 @@
+First of all!!
+Big Data is a issue or a problem. It is not a technology.
+In simple terms Big Data is a challenge of beyond capacity that can't be stored by us on system.
+Two problems are seems--
+1) Volume 
+2) Velocity
+Volume- To solve this problem we use Distributing Storage System.
+So,
+
+What is Distributing Storage System?
+A distributed data store is a computer network where information is store 
+on more than one node or system, often in a replicated form.
+When you have a large amount of data then you can divide it and send each part to particular computers 
+which will make the calculations for their part.
+or If we distribute our data in diff-2 system, then this process is Distributed Storage System.
+
+How to Solve this Issue??
+We require some software to solve this problem and the software name is HADOOP.
+Hadoop implement Distributed Storage System concept.
+
+What is Hadoop?
+Hadoop is an open source distributed processing framework that manages data processing and
+storage for big data applications running in clustered systems.
+Hadoop consists of a storage part, known as Hadoop Distributed File System (HDFS) 
+Hadoop splits files into large blocks and distributes them across nodes in a cluster. 
+It then transfers packaged code into nodes to process the data in parallel. 
+
+There is a cluster form in Hadoop HDFS know as Master-Slave Model.
+
+What is Master-Slave Model in HDFS[Hadoop Distributes File system]?
+Master manage the client data to store in distributed form in slave system.
+In Hadoop term, we call system as Master and Slave.
+Both Master and Slave are computer system and Hadoop HDFS configure the system in such that, it makes a HDFS Cluster.
